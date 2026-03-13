@@ -1,0 +1,30 @@
+pseudo data and file structure for the code:
+project/
+│
+├── data/
+│   ├── genomes/
+│   │   ├── genome1.fna
+│   │   ├── genome2.fna
+│   │   ├── genome3.fna
+│   │   ├── ...
+│   ├── reference/
+│   │   ├──Ames-Ancestor.fna
+│   │   ├──Ames-Ancestor.gff3
+├── config/
+│   ├── clades.tsv
+│   ├── colors.tsv
+│   ├── lat_longs.tsv
+│   ├── metadata.tsv
+├── scripts/
+│   ├── parsnp.bash # This is not needed when using the parsnp.vcf in this github
+
+#Result files after running the workflow
+├── 01_parsnp_out/
+│   ├── parsnp.vcf
+├── 02_augur_out_tree_raw.nwk
+├── 03_augur_out_tree_refined.nwk
+├── 04_augur_out_nt_muts.json
+├── 05_augur_out_aa_muts.json
+├── 06_augur_out_traits.json
+├── 07_augur_out_clades.json
+├── 08_augur_out_export2auspice.json
