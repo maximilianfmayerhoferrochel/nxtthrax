@@ -7,24 +7,3 @@ The vcf-file is generated using parsnp 2.0 (no-partition mode) which can be foun
 This workflow follows the instructions found in https://docs.nextstrain.org/en/latest/tutorials/running-a-phylogenetic-workflow.html and https://docs.nextstrain.org/en/latest/tutorials/creating-a-phylogenetic-workflow.html
 The results can be viewed locally or viewed by using the resulting .json file at https://auspice.us/ in your browser.
 
-pseudo structure for the code:
-project/
-│
-├── data/
-│   ├── genomes/
-│   │   ├── genome1.fna
-│   │   ├── genome2.fna
-│   │   ├── genome3.fna
-│   │   ├── ...
-│   ├── reference/
-│   │   ├──Ames-Ancestor.fna
-│   │   ├──Ames-Ancestor.gff3
-├── config/
-│   ├── clades.tsv
-│   ├── colors.tsv
-│   ├── lat_longs.tsv
-│   ├── metadata.tsv
-├── scripts/
-│   ├── parsnp.bash # This is not needed when using the parsnp.vcf in this github
-├── 01_parsnp_out/
-│   ├── parsnp.vcf
