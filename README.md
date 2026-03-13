@@ -1,4 +1,4 @@
-This Github contains all parts for the usage of the NXTTHRAX database for the phylogeographic analysis of B. anthracis genomes.
+This Github contains all parts for the usage of the NXTTHRAX database for the phylogeographic analysis of B. anthracis genomes and the R script for generating coverage plots for the reference genome of B. anthracis.
 To setup the installation of the nextstrain suite, please follow the instructions found at https://docs.nextstrain.org/en/latest/install.html
 After installation, you can find the config files containing the strain metadata (metadata.tsv), lat-lons of geolocations (lat_longs.tsv), colours of nodes(colors.tsv) and genetic subgroups (clades.tsv) in this Github together with the main file, the snakefile_publication.smk
 The snakefile uses a vcf-file as input to calculate a nextstrain phylogenetic tree with augur and visualize all data with auspice (both are part of the nextstrain installation).
