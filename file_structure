@@ -16,7 +16,7 @@ project/
 │   ├── lat_longs.tsv
 │   ├── metadata.tsv
 ├── scripts/
-│   ├── parsnp.bash # This is not needed when using the parsnp.vcf in this github
+│   ├── parsnp_w_version212.sh # This is not needed when using the parsnp.vcf in this github
 
 #Result files after running the workflow
 ├── 01_parsnp_out/
