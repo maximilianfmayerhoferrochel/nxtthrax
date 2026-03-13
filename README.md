@@ -5,5 +5,5 @@ The snakefile uses a vcf-file as input to calculate a nextstrain phylogenetic tr
 The vcf-file is generated using parsnp 2.0 (no-partition mode) which can be found here: https://github.com/marbl/parsnp/. We have also included our parsnp.vcf file so that you dont have to run the variant calling yourself, as this demands increased computational power.
 
 This workflow follows the instructions found in https://docs.nextstrain.org/en/latest/tutorials/running-a-phylogenetic-workflow.html and https://docs.nextstrain.org/en/latest/tutorials/creating-a-phylogenetic-workflow.html
-The results can be viewed locally or viewed by using the resulting .json file at https://auspice.us/ in your browser.
+The results can be viewed locally or viewed by using the resulting 08_augur_out_export2auspice.json (or Supplementary Data 1) file at https://auspice.us/ in your browser.
 
